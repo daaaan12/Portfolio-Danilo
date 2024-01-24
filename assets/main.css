@@ -198,8 +198,15 @@ main {
    }
 
    .card-projeto {
+    padding: 1rem;
     display: flex;
     flex-direction: column;
+    text-align: center;
+   }
+
+   main {
+    width: 90%;
+   
    }
 
    .descricao-cards  {
@@ -215,5 +222,9 @@ main {
     justify-content: center;
     align-items: center;
  
+}
+
+footer {
+    text-align: center;
 }
 }
