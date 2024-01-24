@@ -1,4 +1,7 @@
 
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Libre+Baskerville:wght@700&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300&family=Libre+Baskerville:wght@700&family=Mukta:wght@200&display=swap');
 
 a {
     text-decoration: none;
@@ -15,7 +18,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-
+    font-family: 'Kanit', sans-serif;
 
 }
 
@@ -77,6 +80,10 @@ main {
     font-size: 1.7rem;
 }
 
+.icones-sociais:hover {
+    transform: scale(1.2);
+}
+
 .secao-descricao {
    
     width: 100%;
@@ -86,8 +93,13 @@ main {
 }
 
 .container-descricao {
-    width: 50%;
+    width: 60%;
 }
+.container-descricao h2 {
+    
+    font-family: 'Libre Baskerville', serif;
+}
+  
 
 .secao-projetos {
 
@@ -95,11 +107,12 @@ main {
 }
 
 .card-projeto {
-    padding: 0.7rem;
+    padding: 0.5rem;
     display: flex;
     align-items: center;
-    background-color: rgb(45, 65, 155);
+    background-color: rgb(12, 46, 138);
     margin-top: 1rem;
+    box-shadow: 0px 0px 6px 0px rgb(53, 53, 94);
 }
 
 .descricao-cards {
@@ -109,8 +122,19 @@ main {
     align-items: start;
 }
 
+    .card-projeto p {
+        font-family: 'Mukta', sans-serif;
+        font-weight: 100;
+    }
+
 .logo-cards {
-    margin-right: 2rem
+    margin-right: 1.5rem;
+    margin-left: 1rem;
+    
+}
+
+.logo-cards:hover img {
+    transform: scale(1.2);
 }
 
 
